@@ -1,4 +1,4 @@
-PROMPT='$(prompt_emoji) $(git_prompt_info)%{$fg[yellow]%}%#%{$reset_color%} '
+PROMPT='$(prompt_emoji) $(git_prompt_info)%{$fg[yellow]%}✈%{$reset_color%} '
 RPROMPT='%{$fg[green]%}%c%{$reset_color%} $(battery_pct_prompt)'
 
 ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg[green]%}"
