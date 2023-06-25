@@ -9,8 +9,8 @@ ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg[green]%}"
 function prompt_emoji() {
   if [ $? -eq 0 ]
   then
-    echo -e 🏂
+    echo -e ${EMOJI_SUCCESS:-🏂}
   else
-    echo -e 💥
+    echo -e ${EMOJI_FAIL:-💥}
   fi
 }
